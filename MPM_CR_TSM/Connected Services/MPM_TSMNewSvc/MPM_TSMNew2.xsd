@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://schemas.datacontract.org/2004/07/Dynamics.AX.Application" elementFormDefault="qualified" targetNamespace="http://schemas.datacontract.org/2004/07/Dynamics.AX.Application" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:import schemaLocation="https://mpmrdevd365it5c26b535f6e2c3e7devaos.axcloud.dynamics.com/soap/services/MPM_TSMNew?xsd=xsd5" namespace="http://schemas.datacontract.org/2004/07/Microsoft.Dynamics.Ax.Xpp" />
+  <xs:complexType name="ArrayOfMPM_TSMNew_Temp">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="MPM_TSMNew_Temp" nillable="true" type="tns:MPM_TSMNew_Temp" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfMPM_TSMNew_Temp" nillable="true" type="tns:ArrayOfMPM_TSMNew_Temp" />
+  <xs:complexType name="MPM_TSMNew_Temp">
+    <xs:complexContent mixed="false">
+      <xs:extension xmlns:q1="http://schemas.datacontract.org/2004/07/Microsoft.Dynamics.Ax.Xpp" base="q1:XppObjectBase">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="prmCheckInDateTime" type="xs:dateTime" />
+          <xs:element minOccurs="0" name="prmCheckOutDateTime" type="xs:dateTime" />
+          <xs:element minOccurs="0" name="prmDriverCode" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="prmTransId" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="prmlogCode" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="prmlogStatus" nillable="true" type="xs:string" />
+        </xs:sequence>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="MPM_TSMNew_Temp" nillable="true" type="tns:MPM_TSMNew_Temp" />
+</xs:schema>

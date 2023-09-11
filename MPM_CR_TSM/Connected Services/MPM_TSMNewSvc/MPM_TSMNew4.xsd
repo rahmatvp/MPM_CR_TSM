@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://tempuri.org" elementFormDefault="qualified" targetNamespace="http://tempuri.org" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:import schemaLocation="https://mpmrdevd365it5c26b535f6e2c3e7devaos.axcloud.dynamics.com/soap/services/MPM_TSMNew?xsd=xsd4" namespace="http://schemas.datacontract.org/2004/07/Dynamics.AX.Application" />
+  <xs:element name="postTSMAbsenDriver">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="ApprovedDateTime" type="xs:dateTime" />
+        <xs:element minOccurs="0" name="CheckInDateTime" type="xs:dateTime" />
+        <xs:element minOccurs="0" name="CheckOutDateTime" type="xs:dateTime" />
+        <xs:element minOccurs="0" name="CustId" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="CustName" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="DriverCode" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="DriverName" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="Nopol" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="Notes" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="OutOfTown" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="PICName" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="Scoring" type="xs:decimal" />
+        <xs:element minOccurs="0" name="TempDriverCode" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="Town_City" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="TransID" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="UsageKMEnd" type="xs:decimal" />
+        <xs:element minOccurs="0" name="UsageKMStart" type="xs:decimal" />
+        <xs:element minOccurs="0" name="approvalType" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="approvedBy" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="typeOfUse" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="typeOfWork" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="postTSMAbsenDriverResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q1="http://schemas.datacontract.org/2004/07/Dynamics.AX.Application" minOccurs="0" name="result" nillable="true" type="q1:ArrayOfMPM_TSMNew_Temp" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="getRuleOT_WFH">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="DriverCode" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="typeOfWork" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="getRuleOT_WFHResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q2="http://schemas.datacontract.org/2004/07/Dynamics.AX.Application" minOccurs="0" name="result" nillable="true" type="q2:ArrayOfMPM_TSMNew_Temp" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

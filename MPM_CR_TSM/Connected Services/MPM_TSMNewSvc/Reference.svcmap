@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="f97e3de8-0517-45c8-bd31-295c39e1c66f" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="https://mpmrdevd365it5c26b535f6e2c3e7devaos.axcloud.dynamics.com/soap/services/MPM_TSMNew" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="MPM_TSMNew.xsd" MetadataType="Schema" ID="f8dfbaa2-2e29-49b7-942e-a512daa0fe3d" SourceId="1" SourceUrl="https://mpmrdevd365it5c26b535f6e2c3e7devaos.axcloud.dynamics.com/soap/services/MPM_TSMNew?xsd=xsd6" />
+    <MetadataFile FileName="MPM_TSMNew1.xsd" MetadataType="Schema" ID="86ccd31b-3771-400d-ac2a-fd339f40f9d1" SourceId="1" SourceUrl="https://mpmrdevd365it5c26b535f6e2c3e7devaos.axcloud.dynamics.com/soap/services/MPM_TSMNew?xsd=xsd5" />
+    <MetadataFile FileName="MPM_TSMNew2.xsd" MetadataType="Schema" ID="51534571-9569-4783-9729-e6766e176615" SourceId="1" SourceUrl="https://mpmrdevd365it5c26b535f6e2c3e7devaos.axcloud.dynamics.com/soap/services/MPM_TSMNew?xsd=xsd4" />
+    <MetadataFile FileName="MPM_TSMNew.wsdl" MetadataType="Wsdl" ID="79f59919-ff6a-482f-a721-8e6083aa12a9" SourceId="1" SourceUrl="https://mpmrdevd365it5c26b535f6e2c3e7devaos.axcloud.dynamics.com/soap/services/MPM_TSMNew?wsdl=wsdl0" />
+    <MetadataFile FileName="MPM_TSMNew.disco" MetadataType="Disco" ID="16a0f4c3-ca86-44be-9913-15fbe7efccc9" SourceId="1" SourceUrl="https://mpmrdevd365it5c26b535f6e2c3e7devaos.axcloud.dynamics.com/soap/services/MPM_TSMNew?disco" />
+    <MetadataFile FileName="MPM_TSMNew1.wsdl" MetadataType="Wsdl" ID="59a8200f-c3db-4b2a-bc63-a4afe25e3d9d" SourceId="1" SourceUrl="https://mpmrdevd365it5c26b535f6e2c3e7devaos.axcloud.dynamics.com/soap/services/MPM_TSMNew?wsdl" />
+    <MetadataFile FileName="MPM_TSMNew3.xsd" MetadataType="Schema" ID="6e637701-df63-4a8c-9d3b-76663457e85a" SourceId="1" SourceUrl="https://mpmrdevd365it5c26b535f6e2c3e7devaos.axcloud.dynamics.com/soap/services/MPM_TSMNew?xsd=xsd3" />
+    <MetadataFile FileName="MPM_TSMNew4.xsd" MetadataType="Schema" ID="734200ae-de1b-4566-b407-124fea1382ee" SourceId="1" SourceUrl="https://mpmrdevd365it5c26b535f6e2c3e7devaos.axcloud.dynamics.com/soap/services/MPM_TSMNew?xsd=xsd2" />
+    <MetadataFile FileName="MPM_TSMNew5.xsd" MetadataType="Schema" ID="26997337-5e0e-48c3-8f40-8db490a09c12" SourceId="1" SourceUrl="https://mpmrdevd365it5c26b535f6e2c3e7devaos.axcloud.dynamics.com/soap/services/MPM_TSMNew?xsd=xsd1" />
+    <MetadataFile FileName="MPM_TSMNew6.xsd" MetadataType="Schema" ID="b832dbce-0787-46ac-b73f-853bb5914db7" SourceId="1" SourceUrl="https://mpmrdevd365it5c26b535f6e2c3e7devaos.axcloud.dynamics.com/soap/services/MPM_TSMNew?xsd=xsd0" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>
